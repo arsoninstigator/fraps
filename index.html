@@ -11,17 +11,31 @@
 
 <body>
   <a-scene>
+    <!-- here comes the face and the antenna -->
     <a-box color="#969cab" position="0 4 0" rotation="0 0 0" length="3" width="5" height="3"></a-box>
+    <a-cylinder color="#2e2d2e" position="0 5 0" rotation="0 0 0" radius="0.1" height="2.5"></a-cylinder>
+    <a-sphere position="0 6.35 0" color="yellow" radius="0.2"></a-sphere>
+    <!-- here come the eyes and their respective eyeballs -->
     <a-circle color="#e6f3f7" position="-1.6 4.2 0.7" radius="0.4"></a-circle>
     <a-circle color="#1d1e1f" position="-1.6 4.2 0.7" radius="0.2"></a-circle>
     <a-circle color="#e6f3f7" position="1.4 4.2 0.7" radius="0.4"></a-circle>
     <a-circle color="#1d1e1f" position="1.4 4.2 0.7" radius="0.2"></a-circle>
+    <!-- here comes the mouth-->
     <a-plane color="#915e71" position="0 3 0.7" width="2" height="0.5"></a-plane>
+    <!-- here come the neck, hands & fists -->
     <a-cylinder color="#a3748f" position="-2.8 1.2 0" rotation="-110 -90 0" radius="0.4" height="4"></a-cylinder>
     <a-cylinder color="#a3748f" position="2.8 1.2 0" rotation="0 0 110" radius="0.4" height="4"></a-cylinder>
+    <a-sphere position="-4.8 1.94 0" color="#a3748f" radius="0.4"></a-sphere>
     <a-cylinder color="#a3748f" position="0 2 0" rotation="0 0 0" radius="0.45" height="4"></a-cylinder>
-    <a-cylinder color="#2e2d2e" position="0 5 0" rotation="0 0 0" radius="0.1" height="2.5"></a-cylinder>
+    <a-sphere position="4.8 1.94 0" color="#a3748f" radius="0.4"></a-sphere>
+    <!-- here comes the general torso -->
     <a-box color="#969cab" position="0 -1 0" rotation="0 0 0" length="3" width="5" height="6"></a-box>
+    <!-- here comes the legs & shoes -->
+    <a-cylinder color="#a3748f" position="-2 -4.5 0" rotation="-10 -90 0" radius="0.4" height="4"></a-cylinder>
+    <a-cylinder color="#a3748f" position="2 -4.5 0" rotation="10 -90 0" radius="0.4" height="4"></a-cylinder>
+    <a-box color="#242222" position="-2.3 -6.5 0" rotation="0 0 0" length="1" width="1.4" height="0.8"></a-box>
+    <a-box color="#242222" position="2.3 -6.5 0" rotation="0 0 0" length="1" width="1.4" height="0.8"></a-box>
+    <!-- here comes the environment and the surrounding -->
     <a-sky color="#b4e0ed"></a-sky>
   </a-scene>
   <script src="script.js"></script>
